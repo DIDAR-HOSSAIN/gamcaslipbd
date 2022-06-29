@@ -1,0 +1,92 @@
+#left-sidebar .navbar-brand .logo {
+    width: 100%;
+}
+
+.table.table-custom.spacing8 {
+    border-spacing: 0 5px !important;
+}
+
+.actionButton{
+    margin: 1px;
+    float: left;
+}
+
+.posMessage{
+    margin-bottom: 0;
+    padding: 6px;
+    text-align: center;
+}
+
+
+#uploadContainer{
+    height: 340px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    margin-top: 30px;
+}
+#uploadContainer input[type=file]{
+    display: none;
+}
+
+#uploadContainer label{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    padding: 138px 0;
+    color: #6d6767;
+    border-radius: 5px;
+}
+#uploadContainer label:hover{
+    background: #f9f9f9;
+}
+
+#imagePreview{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 190px;
+}
+
+#uploadContainer label:hover #imagePreview{
+    z-index: -1;
+}
+
+
+.table td{
+    padding: 5px;
+}
+
+#productTable{
+    font-size: 12px;
+    line-height: 0;
+}
+
+
+#productTable th td{
+    padding:0;
+    margin:0;
+}
+
+#productTable tbody td{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+#productTable .sameSize{
+    width: 65px;
+    text-align: right;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+#productTable input{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}

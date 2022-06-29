@@ -1,0 +1,363 @@
+@import url(bootstrap.min.css);
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,.8);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    position: sticky;
+    top: 0;
+    z-index: 99;  /* for nav bar under content area */
+    /*padding: 90px 10px;*/
+    /*overflow: hidden;*/
+    /*padding: 90px 10px;*/
+    /*transition: 0.4s;*/
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 10px;
+    float: left;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    /*text-transform: lowercase;*/
+    font-weight: bold;
+    line-height: 50px;
+}
+nav ul li a:hover,
+nav ul li a.active{
+background: #f00;
+
+}
+
+/*.navbar-light .navbar-toggler{*/
+/*    !*border: none;*!*/
+/*    color: rgba(255, 255, 255, 0);*/
+/*    border: 2px solid #d9d61b;*/
+/*    border-radius: 0;*/
+/*    outline: none;*/
+/*}*/
+
+/*.navbar-toggler{*/
+/*    color: #f00;*/
+/*    background-color: #0d99d7;*/
+/*    border: 2px solid #d9d61b;*/
+/*    border-radius: 0;*/
+/*    outline: none;*/
+/*}*/
+
+
+/*.navbar-collapse{*/
+/*    background: #14690f;*/
+/*}*/
+
+/*End nav css*/
+
+.header-img{
+    margin-top: 6%;
+    width: 100%;
+    height: 40%;
+}
+
+/*start passenger information*/
+.pinformation{
+    width: 300px;
+    height: 50px;
+    background: #A2D9CE;
+    border: 2px solid #d9d61b;
+    /*margin-left: 150px;*/
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+}
+/*end passenger information*/
+
+
+/*passenger entry page css start*/
+.leftside .rightside {
+    /*width: 100%;*/
+    height: 100vh;
+    /*color: white;*/
+}
+
+@media screen and (min-width: 768px)
+{
+    .leftside, .rightside {
+        height: 100vh;
+    }
+}
+
+
+
+/*.leftside{*/
+/*    float: left;*/
+
+/*    width: 60%;*/
+/*}*/
+
+/*.rightside{*/
+/*    width: 40%;*/
+
+/*}*/
+
+/*passenger entry page css end*/
+
+
+/*start general-slips slip entry button*/
+
+.button{
+    margin-top: 25px;
+    /*margin-left: 100px;*/
+    width: 350px;
+    height: 70px;
+    border-radius: 10px;
+    background: #A2D9CE;
+    border: 2px solid #d9d61b;
+    position: relative;
+
+}
+.button:hover{
+background-color: #ff49d6;
+}
+
+/*End general-slips slip entry button*/
+
+
+/*search*/
+.search{
+    width: 265px;
+    border-radius: 10px;
+    background: #A2D9CE;
+    border: 2px solid #d9d61b;
+
+}
+
+/*end search*/
+
+/* start address*/
+
+.address-label{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    background: #A2D9CE;
+    border: 2px solid #d9d61b;
+    color: black;
+    font-size: 30px;
+    position: relative;
+
+}
+
+
+.address{
+    /*margin-left: 15px;*/
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #d9d61b;
+    width: 350px;
+    height: 100px;
+    color:black;
+    position: relative;
+
+}
+
+/*end address*/
+
+/*start alert*/
+
+.alert-label{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    background: #A2D9CE;
+    border: 2px solid #d9d61b;
+    color: black;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.caution{
+    /*margin-left: 15px;*/
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #d9d61b;
+    width: 350px;
+    height: 100px;
+    font-size: 18px;
+    color:black;
+    position: relative;
+
+}
+
+
+/*end alert*/
+
+/* all page home,sevices, about_us, contact_us,message background color*/
+
+.background{
+    background-color: black;
+    /*background: url("public/msg-lib/images/bg-registration-form-7.jpg") no-repeat;*/
+    /*background-size: cover;*/
+    /*height: calc(100vh - 80px);*/
+    /*color: #0D94FF;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+
+}
+
+/* end sevices, about_us, contact_us,message background color*/
+
+/*start form background*/
+
+.form-background{
+    background-color: #A2D9CE;
+    width: 150%;
+    height: 80%;
+
+}
+
+
+/*end form background*/
+
+/*start slipsend page*/
+
+.tableset{
+        color: white;
+        text-align: center;
+}
+
+@media screen
+{
+    .tablesett{
+        width: 100%;
+        height: 100vh;
+
+
+    }
+}
+
+/*end slipsend page*/
+
+
+/*Start passport sample image*/
+
+.imgleft{
+margin-right: 7%;
+width: 150px;
+height: 100px;
+}
+/*end passport sample image*/
+
+/*start about_us*/
+
+.about_img {
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    margin-left: 25%;
+    width: 50%;
+
+
+
+}
+
+
+/*end about_us*/
+
+/*passenger entry page css end*/
+
+
+
+
+/*start footer css*/
+.footer-bottom {
+    position: fixed;
+    /*left: 0;*/
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40!important;
+    color: white;
+    text-align: center;
+}
+
+/*End footer css*/
+
+
+/*admin panelsidebar start*/
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    /*height: 1000px;*/
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+/*admin panel sidebar end*/
+
+
+
+
+
